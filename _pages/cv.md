@@ -30,7 +30,7 @@ redirect_from:
 
 1. **GraphDREAM**，`Multimedia Systems`，第一作者  
    提出“净化-拓扑-校准”渐进学习框架，在 IEMOCAP、MELD、CH-SIMSv2 和 MOSEI 数据集上取得较优表现。  
-   相关页面：[研究介绍](/graphdream/) / [案例材料](/files/case.pdf)
+   论文目前已录用，待正式见刊。
 
 2. **CRM-Net**，在投论文，第二作者  
    借鉴认知精细化感知机理，在 CMU-MOSI 和 CMU-MOSEI 上取得显著提升。

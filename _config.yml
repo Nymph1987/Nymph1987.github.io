@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "zh-CN"
-site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "吴越 | 个人主页"
 name                     : &name "吴越"
 description              : &description "吴越的个人主页，展示教育背景、研究方向、项目经历与竞赛成果。"

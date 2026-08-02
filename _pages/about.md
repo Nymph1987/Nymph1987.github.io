@@ -1,271 +1,152 @@
 ---
 permalink: /
-title: ""
-author_profile: false
-redirect_from: 
+title: "About Me"
+author_profile: true
+redirect_from:
   - /about/
   - /about.html
 ---
 
-<div class="lang-switch">
-  <img src="/images/icon_切换中英文.png" alt="切换语言" onclick="toggleLanguage()" id="langBtn">
-  <span id="langLabel">English</span>
+<!-- 语言切换按钮 -->
+<div style="text-align: right; margin-bottom: 20px;">
+  <img src="/images/icon_切换中英文.png" alt="切换语言" style="width: 40px; height: 40px; cursor: pointer;" onclick="toggleLanguage()" id="langBtn">
+  <span id="langLabel" style="font-size: 14px; margin-left: 8px; color: #666;">English</span>
 </div>
 
-<div id="zh-content" style="display: block;">
-  <section class="home-hero">
-    <div class="home-hero__inner">
-      <img class="home-hero__image" src="/images/profile.jpg" alt="吴越">
-      <div>
-        <h1>吴越</h1>
-        <p>广州大学计算机科学与网络工程学院计算机科学与技术专业本科生，研究方向聚焦于<strong>多模态情感识别</strong>、图神经网络、自监督学习与多模态大语言模型。</p>
-        <div class="home-badges">
-          <span class="home-badge">专业排名 1 / 130</span>
-          <span class="home-badge">加权 93.08 / 100</span>
-          <span class="home-badge">GPA 3.89 / 4</span>
-          <span class="home-badge">SCI 录用论文 1 篇</span>
-          <span class="home-badge">省级 / 国家级大创 2 项</span>
-        </div>
-        <div class="home-actions" style="margin-top: 1rem;">
-          <a class="home-button home-button--primary" href="#research">查看研究亮点</a>
-          <a class="home-button home-button--ghost" href="/cv/">查看简历</a>
-          <a class="home-button home-button--ghost" href="mailto:3187839269@qq.com">联系我</a>
-        </div>
-      </div>
-    </div>
-  </section>
+<!-- 中文内容 -->
+<div id="zh-content" style="display: none;" markdown="1">
 
-  <section class="home-section">
-    <h2 class="home-section__title">研究与实践概览</h2>
-    <div class="home-grid">
-      <div class="home-card">
-        <h3>研究兴趣</h3>
-        <div class="home-tag-list">
-          <span class="home-tag">多模态情感识别</span>
-          <span class="home-tag">语音 / 人脸 / 生理信号融合</span>
-          <span class="home-tag">图神经网络</span>
-          <span class="home-tag">自监督学习</span>
-          <span class="home-tag">多模态大语言模型</span>
-        </div>
-      </div>
-      <div class="home-card">
-        <h3>学术与项目经历</h3>
-        <ul>
-          <li>第一作者论文被 <em>Multimedia Systems</em> 录用</li>
-          <li>另有一篇多模态情感识别论文在投</li>
-          <li>主持省级大创项目，参与国家级大创项目</li>
-          <li>参与教材编写、案例设计与代码实现</li>
-        </ul>
-      </div>
-      <div class="home-card">
-        <h3>竞赛与荣誉</h3>
-        <ul>
-          <li>APMCM 国家级一等奖</li>
-          <li>微维杯数学建模国家级一等奖</li>
-          <li>英语作文大赛省级一等奖</li>
-          <li>校一等奖学金、国家励志奖学金等</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+我是广州大学计算机科学与网络工程学院计算机科学与技术专业**2022级本科生**，专业排名 **1/130**，加权平均分 **93.08/100**，绩点 **3.89/4**。
 
-  <section class="home-section" id="research">
-    <h2 class="home-section__title">代表性研究成果</h2>
-    <div class="home-grid">
-      <div class="home-feature">
-        <h3>GraphDREAM | 已录用，待正式见刊</h3>
-        <p>GraphDREAM 面向多模态情感识别中的模态噪声、跨模态关系建模与分类校准问题，提出“净化 - 拓扑 - 校准”的渐进式学习框架，在 IEMOCAP、MELD、CH-SIMSv2 和 MOSEI 等数据集上取得了有竞争力的结果。</p>
-        <div class="home-note" style="margin: 1rem 0;">
-          <p><strong>说明：</strong>该论文目前已录用但尚未正式线上出版。考虑到版权与出版规范，主页暂不直接提供论文全文下载；正式见刊后会补充 DOI 与出版社页面链接。目前先开放研究简介与案例材料展示。</p>
-        </div>
-        <div class="home-actions">
-          <a class="home-button home-button--primary" href="/graphdream/">查看研究介绍</a>
-          <a class="home-button home-button--ghost" href="/files/case.pdf">查看案例材料</a>
-        </div>
-      </div>
-      <div class="home-card">
-        <h3>CRM-Net</h3>
-        <p>在投工作，借鉴认知精细化感知机理，在 CMU-MOSI 与 CMU-MOSEI 上取得显著提升，关注模型对多模态语义和细粒度情绪线索的协同建模能力。</p>
-      </div>
-      <div class="home-card">
-        <h3>MoodLens</h3>
-        <p>基于多模态情感识别技术开发的网页系统，支持人脸、语音、文本的实时情感分析与反馈，已形成软件著作权成果。</p>
-      </div>
-      <div class="home-card">
-        <h3>校企合作项目</h3>
-        <p>作为组长参与基于大模型的知识库技术服务项目，使用 OCR 与 Qwen3-VL 进行多格式文档解析，搭建智能报价系统并协助接入 LIMS。</p>
-      </div>
-    </div>
-  </section>
+我的研究兴趣集中于**多模态情感识别**，包括语音、人脸、生理信号融合，以及图神经网络、自监督学习、多模态大语言模型等方向。目前有一篇论文已被 *Multimedia Systems* 录用（第一作者，**待正式见刊**），另有一篇相关工作在投（第二作者）；主持省级大创项目一项，参与国家级大创项目一项；拥有授权软著一项和公开发明专利一项。
 
-  <section class="home-section">
-    <h2 class="home-section__title">资料与证书</h2>
-    <div class="home-doc-grid">
-      <a class="home-doc" href="/cv/">
-        <strong>个人简历</strong>
-        <span>浏览网页版简历与主要经历</span>
-      </a>
-      <a class="home-doc" href="/files/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%90%B4%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf">
-        <strong>简历 PDF</strong>
-        <span>下载完整版个人简历</span>
-      </a>
-      <a class="home-doc" href="/files/%E6%88%90%E7%BB%A9%E5%8D%95%E5%8F%8A%E6%8E%92%E5%90%8D.pdf">
-        <strong>成绩单及排名</strong>
-        <span>课程成绩与专业排名证明</span>
-      </a>
-      <a class="home-doc" href="/files/%E4%BA%9A%E5%A4%AA.pdf">
-        <strong>APMCM 证书</strong>
-        <span>亚太地区大学生数学建模竞赛国家级一等奖</span>
-      </a>
-      <a class="home-doc" href="/files/%E6%95%B0%E7%BB%B4.pdf">
-        <strong>数维杯证书</strong>
-        <span>数学建模挑战赛国家级一等奖</span>
-      </a>
-      <a class="home-doc" href="/files/%E8%8B%B1%E8%AF%AD%E8%83%BD%E5%8A%9B%E8%AF%81%E6%98%8E_%E5%9B%9B%E5%85%AD%E7%BA%A7_%E4%BD%9C%E6%96%87%E5%A4%A7%E8%B5%9B.pdf">
-        <strong>英语能力证明</strong>
-        <span>四六级与英语作文大赛相关材料</span>
-      </a>
-      <a class="home-doc" href="/files/%E8%BD%AF%E8%91%97-%E8%AE%A1%E7%A7%91231%EF%BC%88%E5%88%9B%EF%BC%89%E5%90%B4%E8%B6%8A_01.png">
-        <strong>软件著作权</strong>
-        <span>MoodLens 相关证明材料</span>
-      </a>
-      <a class="home-doc" href="/files/case.pdf">
-        <strong>论文案例材料</strong>
-        <span>GraphDREAM 相关图示与案例展示</span>
-      </a>
-      <a class="home-doc" href="mailto:3187839269@qq.com">
-        <strong>学术交流</strong>
-        <span>如需交流录用论文细节，可通过邮件联系</span>
-      </a>
-    </div>
-  </section>
+我曾参与 ICRCV-Hongkong 分会场会议，并跟随导师彭凌西参与编写《人工智能通识》（ISBN: 978-7-115-67650-4）和《AI大模型开发实战》（ISBN: 978-7-111-79703-6）两本教材，主要负责内容撰写、案例设计与代码实现。
 
-  <section class="home-section">
-    <h2 class="home-section__title">更多展示</h2>
-    <div class="home-media-grid">
-      <a class="home-media-card" href="/images/学术会议.jpg">
-        <img src="/images/学术会议.jpg" alt="学术会议">
-        <div class="home-media-card__body">
-          <h3>学术会议</h3>
-          <p>参与 ICRCV-Hong Kong 分会场等学术交流活动。</p>
-        </div>
-      </a>
-      <a class="home-media-card" href="/images/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%80%9A%E8%AF%86_ISBN%20978-7-115-67650-4.png">
-        <img src="/images/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%80%9A%E8%AF%86_ISBN%20978-7-115-67650-4.png" alt="人工智能通识">
-        <div class="home-media-card__body">
-          <h3>教材编写</h3>
-          <p>参与《人工智能通识》内容撰写、案例设计与代码实现。</p>
-        </div>
-      </a>
-      <a class="home-media-card" href="/images/广马志愿证书.jpg">
-        <img src="/images/广马志愿证书.jpg" alt="广马志愿证书">
-        <div class="home-media-card__body">
-          <h3>志愿服务</h3>
-          <p>参与大型赛事志愿服务，积累组织协作与沟通经验。</p>
-        </div>
-      </a>
-      <a class="home-media-card" href="/images/志愿总时长证明.png">
-        <img src="/images/志愿总时长证明.png" alt="志愿总时长证明">
-        <div class="home-media-card__body">
-          <h3>综合成长</h3>
-          <p>在科研之外，也持续投入志愿服务与综合素质建设。</p>
-        </div>
-      </a>
-    </div>
-  </section>
+## 代表性研究成果
 
-  <section class="home-section">
-    <div class="home-note">
-      <p><strong>欢迎交流：</strong>我对多模态 AI、情感计算、智能交互和相关工程落地都很感兴趣。如果你希望合作、交流研究问题，或想了解项目与比赛材料，欢迎直接邮件联系我。</p>
-    </div>
-  </section>
+- **GraphDREAM** (*Multimedia Systems*, 第一作者，已录用待见刊)：提出“净化-拓扑-校准”渐进学习框架，在 IEMOCAP、MELD、CH-SIMSv2 和 MOSEI 四个数据集上取得了有竞争力的性能。
+- **CRM-Net** (在投，第二作者)：借鉴认知精细化感知机理，在 CMU-MOSI 和 CMU-MOSEI 上取得显著性能提升。
+- **MoodLens** (软件著作权)：基于多模态情感识别技术的网页系统，融合人脸、语音、文本实时分析情感状态并提供 emoji 反馈。
+
+## GraphDREAM 方法示意图
+
+下面直接展示论文中的方法示意图，用于介绍 GraphDREAM 的整体框架。论文目前尚未正式线上出版，因此这里仅展示方法图和说明，不公开全文 PDF。
+
+<embed src="/files/model.pdf" type="application/pdf" width="100%" height="520px" />
+
+GraphDREAM 主要围绕三个关键环节展开：
+
+- **净化（Purification）**：削弱低质量模态或噪声样本对表征学习的干扰。
+- **拓扑（Topology）**：显式建模多模态之间的结构关系，增强跨模态交互能力。
+- **校准（Calibration）**：优化分类边界与输出分布，提高预测稳定性和泛化能力。
+
+## GraphDREAM 案例展示
+
+下面直接展示论文中的部分案例图，用于说明模型在具体样本上的表现与分析思路。
+
+<embed src="/files/case.pdf" type="application/pdf" width="100%" height="520px" />
+
+这些案例主要用于展示模型在多模态输入下的识别效果、跨模态关系理解能力，以及在复杂情绪样本上的表现特征。
+
+## 竞赛与荣誉
+
+- 2025 亚太地区大学生数学建模竞赛 (APMCM) — **国家级一等奖**
+- 2025 微维杯大学生数学建模挑战赛 — **国家级一等奖**
+- 2025 全球人工智能算法精英大赛 — **省级二等奖 / 国家优秀奖**
+- 2024 全国大学生英语作文大赛 — **省级一等奖**
+- 校一等奖学金、国家励志奖学金、校优秀学生、院优秀学生干部
+
+## 资料与证明
+
+- [个人简历 PDF](/files/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%90%B4%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf)
+- [成绩单及排名](/files/%E6%88%90%E7%BB%A9%E5%8D%95%E5%8F%8A%E6%8E%92%E5%90%8D.pdf)
+- [APMCM 证书](/files/%E4%BA%9A%E5%A4%AA.pdf)
+- [微维杯证书](/files/%E6%95%B0%E7%BB%B4.pdf)
+- [英语能力证明](/files/%E8%8B%B1%E8%AF%AD%E8%83%BD%E5%8A%9B%E8%AF%81%E6%98%8E_%E5%9B%9B%E5%85%AD%E7%BA%A7_%E4%BD%9C%E6%96%87%E5%A4%A7%E8%B5%9B.pdf)
+- [软件著作权证明](/files/%E8%BD%AF%E8%91%97-%E8%AE%A1%E7%A7%91231%EF%BC%88%E5%88%9B%EF%BC%89%E5%90%B4%E8%B6%8A_01.png)
+
+## 补充展示
+
+### 学术活动
+
+<img src="/images/学术会议.jpg" alt="学术会议" style="width: 100%; max-width: 720px;">
+
+参与 ICRCV-Hongkong 分会场等学术交流活动，持续关注多模态智能、情感计算与相关前沿研究。
+
+### 教材编写
+
+<img src="/images/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%80%9A%E8%AF%86_ISBN%20978-7-115-67650-4.png" alt="人工智能通识" style="width: 100%; max-width: 720px;">
+
+参与《人工智能通识》与《AI大模型开发实战》的内容撰写、案例设计与代码实现。
+
+欢迎对多模态 AI、情感计算、智能交互感兴趣的同学和朋友交流合作！
+
 </div>
 
-<div id="en-content" style="display: none;">
-  <section class="home-hero">
-    <div class="home-hero__inner">
-      <img class="home-hero__image" src="/images/profile.jpg" alt="Yue Wu">
-      <div>
-        <h1>Yue Wu</h1>
-        <p>I am an undergraduate student at Guangzhou University. My work focuses on <strong>multimodal emotion recognition</strong>, graph neural networks, self-supervised learning, and multimodal large language models.</p>
-        <div class="home-badges">
-          <span class="home-badge">Ranked 1 / 130</span>
-          <span class="home-badge">Weighted GPA 93.08 / 100</span>
-          <span class="home-badge">GPA 3.89 / 4</span>
-          <span class="home-badge">1 accepted SCI paper</span>
-          <span class="home-badge">2 innovation projects</span>
-        </div>
-        <div class="home-actions" style="margin-top: 1rem;">
-          <a class="home-button home-button--primary" href="#research-en">Research</a>
-          <a class="home-button home-button--ghost" href="/cv/">CV</a>
-          <a class="home-button home-button--ghost" href="mailto:3187839269@qq.com">Email</a>
-        </div>
-      </div>
-    </div>
-  </section>
+<!-- 英文内容 -->
+<div id="en-content" style="display: block;" markdown="1">
 
-  <section class="home-section">
-    <h2 class="home-section__title">Overview</h2>
-    <div class="home-grid">
-      <div class="home-card">
-        <h3>Research Interests</h3>
-        <div class="home-tag-list">
-          <span class="home-tag">Multimodal Emotion Recognition</span>
-          <span class="home-tag">Speech / Face / Physiological Fusion</span>
-          <span class="home-tag">Graph Neural Networks</span>
-          <span class="home-tag">Self-supervised Learning</span>
-          <span class="home-tag">Multimodal LLMs</span>
-        </div>
-      </div>
-      <div class="home-card">
-        <h3>Experience</h3>
-        <ul>
-          <li>First-author paper accepted by <em>Multimedia Systems</em></li>
-          <li>One additional paper under review</li>
-          <li>Led a provincial innovation project and joined a national one</li>
-          <li>Contributed to AI textbook writing and case design</li>
-        </ul>
-      </div>
-      <div class="home-card">
-        <h3>Awards</h3>
-        <ul>
-          <li>APMCM National First Prize</li>
-          <li>National First Prize in Mathematical Modeling</li>
-          <li>Provincial First Prize in English Writing Contest</li>
-          <li>Scholarships and student honors</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+I am an undergraduate student majoring in Computer Science and Technology at Guangzhou University, with a major ranking of **1/130**, a weighted GPA of **93.08/100**, and a GPA of **3.89/4**.
 
-  <section class="home-section" id="research-en">
-    <h2 class="home-section__title">Selected Research</h2>
-    <div class="home-grid">
-      <div class="home-feature">
-        <h3>GraphDREAM | Accepted, Online Publication Pending</h3>
-        <p>GraphDREAM is a progressive framework for multimodal emotion recognition that addresses modality noise, cross-modal topology modeling, and prediction calibration. It achieved strong results on IEMOCAP, MELD, CH-SIMSv2, and MOSEI.</p>
-        <div class="home-note" style="margin: 1rem 0;">
-          <p><strong>Note:</strong> The paper has been accepted but has not yet appeared online. To stay aligned with publication and copyright norms, I am not publicly linking the full manuscript on the homepage at this stage. The project introduction and supporting materials are available below.</p>
-        </div>
-        <div class="home-actions">
-          <a class="home-button home-button--primary" href="/graphdream/">Project Page</a>
-          <a class="home-button home-button--ghost" href="/files/case.pdf">Case Material</a>
-        </div>
-      </div>
-      <div class="home-card">
-        <h3>CRM-Net</h3>
-        <p>An under-review work inspired by fine-grained cognitive perception, designed to better capture subtle emotional cues across multimodal signals.</p>
-      </div>
-      <div class="home-card">
-        <h3>MoodLens</h3>
-        <p>A web-based system for real-time emotion analysis from face, voice, and text, with software copyright protection.</p>
-      </div>
-      <div class="home-card">
-        <h3>Industry Collaboration</h3>
-        <p>Led a knowledge-base service project using OCR and Qwen3-VL for document parsing, quotation generation, and integration into LIMS workflows.</p>
-      </div>
-    </div>
-  </section>
+My research interests focus on **multimodal emotion recognition**, including the fusion of speech, facial expressions, and physiological signals, as well as graph neural networks, self-supervised learning, and multimodal large language models. One of my papers has been accepted by *Multimedia Systems* as first author and is **awaiting formal publication**. I also have another related work under review as second author. In addition, I have led one provincial-level innovation project, participated in one national-level innovation project, and obtained one software copyright and one published invention patent.
+
+I have attended the ICRCV-Hongkong session and contributed to the writing, case design, and code implementation of two AI textbooks under the supervision of Prof. Peng Lingxi: *Introduction to Artificial Intelligence* and *Hands-on Development of AI Large Models*.
+
+## Selected Research Highlights
+
+- **GraphDREAM** (*Multimedia Systems*, first author, accepted and awaiting publication): a progressive framework featuring purification, topology modeling, and calibration for multimodal emotion recognition.
+- **CRM-Net** (under review, second author): a cognition-inspired method for improving performance on CMU-MOSI and CMU-MOSEI.
+- **MoodLens** (software copyright): a web-based multimodal emotion recognition system integrating face, voice, and text analysis.
+
+## GraphDREAM Framework Illustration
+
+The following figure is directly embedded to introduce the overall framework of GraphDREAM. Since the paper has not yet been formally published online, I only present the method illustration and explanation here instead of the full paper PDF.
+
+<embed src="/files/model.pdf" type="application/pdf" width="100%" height="520px" />
+
+GraphDREAM mainly includes three key stages:
+
+- **Purification**: reducing the interference of noisy modalities or low-quality inputs.
+- **Topology**: explicitly modeling structural relations across modalities.
+- **Calibration**: improving prediction stability and generalization by refining output distributions.
+
+## GraphDREAM Case Visualization
+
+The following embedded figure presents part of the case analysis from the paper, showing how the model behaves on specific multimodal samples.
+
+<embed src="/files/case.pdf" type="application/pdf" width="100%" height="520px" />
+
+These examples are used to illustrate the model's recognition behavior, cross-modal understanding, and performance on complex emotional samples.
+
+## Awards & Honors
+
+- 2025 Asia and Pacific Mathematical Contest in Modeling (APMCM) — **National First Prize**
+- 2025 Weiwei Cup Mathematical Contest in Modeling — **National First Prize**
+- 2025 Global AI Algorithm Elite Competition — **Provincial Second Prize / National Excellence Award**
+- 2024 National College English Writing Contest — **Provincial First Prize**
+- University First-Class Scholarship, National Encouragement Scholarship, Outstanding Student, Outstanding Student Leader
+
+## Materials
+
+- [CV PDF](/files/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%90%B4%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf)
+- [Transcript and Ranking](/files/%E6%88%90%E7%BB%A9%E5%8D%95%E5%8F%8A%E6%8E%92%E5%90%8D.pdf)
+- [APMCM Certificate](/files/%E4%BA%9A%E5%A4%AA.pdf)
+- [Mathematical Modeling Certificate](/files/%E6%95%B0%E7%BB%B4.pdf)
+- [English Ability Certificate](/files/%E8%8B%B1%E8%AF%AD%E8%83%BD%E5%8A%9B%E8%AF%81%E6%98%8E_%E5%9B%9B%E5%85%AD%E7%BA%A7_%E4%BD%9C%E6%96%87%E5%A4%A7%E8%B5%9B.pdf)
+- [Software Copyright](/files/%E8%BD%AF%E8%91%97-%E8%AE%A1%E7%A7%91231%EF%BC%88%E5%88%9B%EF%BC%89%E5%90%B4%E8%B6%8A_01.png)
+
+## Additional Presentation
+
+### Academic Activity
+
+<img src="/images/学术会议.jpg" alt="Academic Activity" style="width: 100%; max-width: 720px;">
+
+### Textbook Participation
+
+<img src="/images/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%80%9A%E8%AF%86_ISBN%20978-7-115-67650-4.png" alt="AI Textbook" style="width: 100%; max-width: 720px;">
+
+I am always open to communication and collaboration on multimodal AI, affective computing, and intelligent interaction.
+
 </div>
 
 <script>
@@ -273,7 +154,7 @@ function toggleLanguage() {
   var zh = document.getElementById('zh-content');
   var en = document.getElementById('en-content');
   var label = document.getElementById('langLabel');
-  
+
   if (zh.style.display === 'none') {
     zh.style.display = 'block';
     en.style.display = 'none';
@@ -294,9 +175,9 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('en-content').style.display = 'none';
     document.getElementById('langLabel').textContent = '中文';
   } else {
-    document.getElementById('zh-content').style.display = 'block';
-    document.getElementById('en-content').style.display = 'none';
-    document.getElementById('langLabel').textContent = '中文';
+    document.getElementById('zh-content').style.display = 'none';
+    document.getElementById('en-content').style.display = 'block';
+    document.getElementById('langLabel').textContent = 'English';
   }
 });
 </script>
