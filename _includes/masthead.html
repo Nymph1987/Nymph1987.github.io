@@ -3,14 +3,14 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <ul class="visible-links" style="display: flex; align-items: center; gap: 24px; flex-wrap: wrap; width: 100%;">
-          <li class="masthead__menu-item masthead__menu-item--lg persist" style="flex: 1 1 auto; min-width: 0;">
+        <ul class="visible-links" style="display: block; width: 100%;">
+          <li class="masthead__menu-item masthead__menu-item--lg persist" style="display: block; width: 100%; margin-bottom: 8px;">
             <a href="{{ base_path }}/" style="display: inline-block; line-height: 1.35;">
               <span style="display: block; font-weight: 700;">YueWu's HOME</span>
               <span style="display: block; margin-top: 4px; font-size: 0.84em; font-weight: 400; opacity: 0.9;">{{ site.motto }}</span>
             </a>
           </li>
-          <li class="masthead__menu-item persist" style="display: flex; align-items: center; gap: 12px; flex-shrink: 0; padding-right: 12px;">
+          <li class="masthead__menu-item persist" style="display: flex; align-items: center; gap: 12px; width: 100%; padding-left: 2px;">
             <button type="button" onclick="toggleLanguage()" aria-label="Toggle language" style="display: inline-flex; align-items: center; gap: 6px; background: transparent; border: 0; padding: 6px 8px; cursor: pointer; color: inherit;">
               <img src="/images/icon_切换中英文.png" alt="切换语言" style="width: 22px; height: 22px;" id="langBtn">
               <span id="langLabel" style="font-size: 0.9rem; color: inherit;">English</span>
