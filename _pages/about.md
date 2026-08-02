@@ -62,6 +62,12 @@ GraphDREAM 面向对话与独白情感分类任务，主要处理多模态情感
 
 面向骨科术后康复方案个性化制定问题，设计多模态融合生成模型。我负责核心算法研发，参与特征划分、模态编码器和多任务解码器设计，用于解决模态缺失与康复预测问题。
 
+## 专业实习
+
+**基于大模型的知识库技术服务**
+
+在这段专业实习中，我作为组长牵头校企合作项目，对接企业完成需求梳理与方案落地；依托 OCR 与 Qwen3-VL 接口实现多格式文档解析和结构化处理，搭建智能报价系统，完成设备智能匹配与报价单自动生成，并协助将智能模块集成至 LIMS 系统。
+
 ## 软著与专利
 
 - **《MoodLens 多模态情感识别分析网页系统结构说明 v1.0》**：第一作者授权软著，检索号 **2026SR0527316**
@@ -131,9 +137,16 @@ GraphDREAM 面向对话与独白情感分类任务，主要处理多模态情感
 - [个人简历 PDF](/files/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%90%B4%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf)
 - [成绩单及排名](/files/%E6%88%90%E7%BB%A9%E5%8D%95%E5%8F%8A%E6%8E%92%E5%90%8D.pdf)
 
+## 访问统计
+
+当前主页累计访问量：**<span id="site-pv-display-zh">100</span>**
+
+<span id="busuanzi_container_site_pv" style="display: none;">
+  <span id="busuanzi_value_site_pv"></span>
+</span>
+
 ---
 
-GitHub：Nymph1987  
 © 2026 吴越，技术支持：Jekyll & AcademicPages, a fork of Minimal Mistakes.  
 Site last updated 2026-08-02， [Sitemap](/sitemap/)
 
@@ -187,6 +200,12 @@ This project targets missing modalities and noisy inputs in real-world settings.
 **BoneRehab Intelligence Chain: Personalized Multimodal Plan Generation for Orthopedic Postoperative Rehabilitation - Core Team Member**
 
 This project focuses on personalized rehabilitation planning. I contributed to the core algorithm design, including feature partitioning, modality encoders, and a multitask decoder for multimodal generation and prediction.
+
+## Professional Internship
+
+**Knowledge Base Technical Service Based on Large Models**
+
+During this internship, I served as the team lead in a university-enterprise collaboration project. I coordinated requirement analysis and solution implementation with the company, used OCR and Qwen3-VL APIs to support multi-format document parsing and structured processing, built an intelligent quotation system for equipment matching and automatic quotation generation, and helped integrate the intelligent module into the LIMS system.
 
 ## Software Copyright and Patent
 
@@ -255,9 +274,12 @@ I am always open to communication and collaboration on multimodal AI, affective 
 - [CV PDF](/files/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%90%B4%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf)
 - [Transcript and Ranking](/files/%E6%88%90%E7%BB%A9%E5%8D%95%E5%8F%8A%E6%8E%92%E5%90%8D.pdf)
 
+## Visitor Counter
+
+Total homepage visits: **<span id="site-pv-display-en">100</span>**
+
 ---
 
-GitHub: Nymph1987  
 © 2026 Yue Wu, Powered by Jekyll & AcademicPages, a fork of Minimal Mistakes.  
 Site last updated 2026-08-02, [Sitemap](/sitemap/)
 
@@ -325,5 +347,22 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('langLabel').textContent = 'English';
     setSidebarLanguage('en');
   }
+
+  function updateVisitorCount() {
+    var rawCounter = document.getElementById('busuanzi_value_site_pv');
+    if (!rawCounter) return;
+    var rawValue = parseInt(rawCounter.textContent, 10);
+    if (isNaN(rawValue)) return;
+
+    var displayValue = rawValue + 100;
+    var zhCounter = document.getElementById('site-pv-display-zh');
+    var enCounter = document.getElementById('site-pv-display-en');
+
+    if (zhCounter) zhCounter.textContent = displayValue;
+    if (enCounter) enCounter.textContent = displayValue;
+  }
+
+  updateVisitorCount();
+  setInterval(updateVisitorCount, 1000);
 });
 </script>
