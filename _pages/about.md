@@ -133,8 +133,8 @@ GraphDREAM 面向对话与独白情感分类任务，主要处理多模态情感
 
 ---
 
-© 2026 吴越，技术支持：Jekyll & AcademicPages, a fork of Minimal Mistakes.  
-Site last updated 2026-08-02， [Sitemap](/sitemap/)
+© 2026 吴越。本站基于 Jekyll 与 AcademicPages 构建。
+最后更新：2026-08-02
 
 </div>
 
@@ -262,8 +262,8 @@ I am always open to communication and collaboration on multimodal AI, affective 
 
 ---
 
-© 2026 Yue Wu, Powered by Jekyll & AcademicPages, a fork of Minimal Mistakes.  
-Site last updated 2026-08-02, [Sitemap](/sitemap/)
+© 2026 Yue Wu. Built with Jekyll and AcademicPages.
+Last updated: 2026-08-02
 
 </div>
 
