@@ -32,7 +32,7 @@ redirect_from:
 
 下面直接展示论文中的方法示意图，用于介绍 GraphDREAM 的整体框架。论文目前尚未正式线上出版，因此这里仅展示方法图和说明，不公开全文 PDF。
 
-<embed src="/files/model.pdf" type="application/pdf" width="100%" height="520px" />
+<img src="/images/generated/graphdream-model.png" alt="GraphDREAM 方法示意图" style="width: 100%; max-width: 900px;">
 
 GraphDREAM 主要围绕三个关键环节展开：
 
@@ -44,7 +44,7 @@ GraphDREAM 主要围绕三个关键环节展开：
 
 下面直接展示论文中的部分案例图，用于说明模型在具体样本上的表现与分析思路。
 
-<embed src="/files/case.pdf" type="application/pdf" width="100%" height="520px" />
+<img src="/images/generated/graphdream-case.png" alt="GraphDREAM 案例展示" style="width: 100%; max-width: 900px;">
 
 这些案例主要用于展示模型在多模态输入下的识别效果、跨模态关系理解能力，以及在复杂情绪样本上的表现特征。
 
@@ -60,10 +60,24 @@ GraphDREAM 主要围绕三个关键环节展开：
 
 - [个人简历 PDF](/files/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%90%B4%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf)
 - [成绩单及排名](/files/%E6%88%90%E7%BB%A9%E5%8D%95%E5%8F%8A%E6%8E%92%E5%90%8D.pdf)
-- [APMCM 证书](/files/%E4%BA%9A%E5%A4%AA.pdf)
-- [微维杯证书](/files/%E6%95%B0%E7%BB%B4.pdf)
-- [英语能力证明](/files/%E8%8B%B1%E8%AF%AD%E8%83%BD%E5%8A%9B%E8%AF%81%E6%98%8E_%E5%9B%9B%E5%85%AD%E7%BA%A7_%E4%BD%9C%E6%96%87%E5%A4%A7%E8%B5%9B.pdf)
-- [软件著作权证明](/files/%E8%BD%AF%E8%91%97-%E8%AE%A1%E7%A7%91231%EF%BC%88%E5%88%9B%EF%BC%89%E5%90%B4%E8%B6%8A_01.png)
+
+## 比赛与能力证明展示
+
+### APMCM 证书
+
+<img src="/images/generated/award-apmcm.png" alt="APMCM 证书" style="width: 100%; max-width: 900px;">
+
+### 微维杯证书
+
+<img src="/images/generated/award-shuwei.png" alt="微维杯证书" style="width: 100%; max-width: 900px;">
+
+### 英语能力证明
+
+<img src="/images/generated/award-english.png" alt="英语能力证明" style="width: 100%; max-width: 900px;">
+
+### 软件著作权证明
+
+<img src="/files/%E8%BD%AF%E8%91%97-%E8%AE%A1%E7%A7%91231%EF%BC%88%E5%88%9B%EF%BC%89%E5%90%B4%E8%B6%8A_01.png" alt="软件著作权证明" style="width: 100%; max-width: 900px;">
 
 ## 补充展示
 
@@ -80,6 +94,13 @@ GraphDREAM 主要围绕三个关键环节展开：
 参与《人工智能通识》与《AI大模型开发实战》的内容撰写、案例设计与代码实现。
 
 欢迎对多模态 AI、情感计算、智能交互感兴趣的同学和朋友交流合作！
+
+---
+
+GitHub：Nymph1987  
+打赏：如有需要可私下联系  
+© 2026 吴越，技术支持：Jekyll & AcademicPages, a fork of Minimal Mistakes.  
+Site last updated 2026-08-02， [Sitemap](/sitemap/)
 
 </div>
 
@@ -102,7 +123,7 @@ I have attended the ICRCV-Hongkong session and contributed to the writing, case 
 
 The following figure is directly embedded to introduce the overall framework of GraphDREAM. Since the paper has not yet been formally published online, I only present the method illustration and explanation here instead of the full paper PDF.
 
-<embed src="/files/model.pdf" type="application/pdf" width="100%" height="520px" />
+<img src="/images/generated/graphdream-model.png" alt="GraphDREAM Framework Illustration" style="width: 100%; max-width: 900px;">
 
 GraphDREAM mainly includes three key stages:
 
@@ -114,7 +135,7 @@ GraphDREAM mainly includes three key stages:
 
 The following embedded figure presents part of the case analysis from the paper, showing how the model behaves on specific multimodal samples.
 
-<embed src="/files/case.pdf" type="application/pdf" width="100%" height="520px" />
+<img src="/images/generated/graphdream-case.png" alt="GraphDREAM Case Visualization" style="width: 100%; max-width: 900px;">
 
 These examples are used to illustrate the model's recognition behavior, cross-modal understanding, and performance on complex emotional samples.
 
@@ -130,10 +151,24 @@ These examples are used to illustrate the model's recognition behavior, cross-mo
 
 - [CV PDF](/files/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%90%B4%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf)
 - [Transcript and Ranking](/files/%E6%88%90%E7%BB%A9%E5%8D%95%E5%8F%8A%E6%8E%92%E5%90%8D.pdf)
-- [APMCM Certificate](/files/%E4%BA%9A%E5%A4%AA.pdf)
-- [Mathematical Modeling Certificate](/files/%E6%95%B0%E7%BB%B4.pdf)
-- [English Ability Certificate](/files/%E8%8B%B1%E8%AF%AD%E8%83%BD%E5%8A%9B%E8%AF%81%E6%98%8E_%E5%9B%9B%E5%85%AD%E7%BA%A7_%E4%BD%9C%E6%96%87%E5%A4%A7%E8%B5%9B.pdf)
-- [Software Copyright](/files/%E8%BD%AF%E8%91%97-%E8%AE%A1%E7%A7%91231%EF%BC%88%E5%88%9B%EF%BC%89%E5%90%B4%E8%B6%8A_01.png)
+
+## Award and Certificate Display
+
+### APMCM Certificate
+
+<img src="/images/generated/award-apmcm.png" alt="APMCM Certificate" style="width: 100%; max-width: 900px;">
+
+### Mathematical Modeling Certificate
+
+<img src="/images/generated/award-shuwei.png" alt="Mathematical Modeling Certificate" style="width: 100%; max-width: 900px;">
+
+### English Ability Certificate
+
+<img src="/images/generated/award-english.png" alt="English Ability Certificate" style="width: 100%; max-width: 900px;">
+
+### Software Copyright
+
+<img src="/files/%E8%BD%AF%E8%91%97-%E8%AE%A1%E7%A7%91231%EF%BC%88%E5%88%9B%EF%BC%89%E5%90%B4%E8%B6%8A_01.png" alt="Software Copyright" style="width: 100%; max-width: 900px;">
 
 ## Additional Presentation
 
@@ -146,6 +181,13 @@ These examples are used to illustrate the model's recognition behavior, cross-mo
 <img src="/images/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%80%9A%E8%AF%86_ISBN%20978-7-115-67650-4.png" alt="AI Textbook" style="width: 100%; max-width: 720px;">
 
 I am always open to communication and collaboration on multimodal AI, affective computing, and intelligent interaction.
+
+---
+
+GitHub: Nymph1987  
+Support: available on request  
+© 2026 Yue Wu, Powered by Jekyll & AcademicPages, a fork of Minimal Mistakes.  
+Site last updated 2026-08-02, [Sitemap](/sitemap/)
 
 </div>
 

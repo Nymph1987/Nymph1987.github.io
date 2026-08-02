@@ -11,6 +11,7 @@ locale                   : "zh-CN"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "吴越 | 个人主页"
 name                     : &name "吴越"
+motto                    : "为天地立心，为生民立命，为往圣继绝学，为万世开太平。"
 description              : &description "吴越的个人主页，展示教育背景、研究方向、项目经历与竞赛成果。"
 url                      : https://Nymph1987.github.io
 repository               : "Nymph1987/Nymph1987.github.io"
@@ -25,7 +26,7 @@ author:
   github           : "Nymph1987"
   uri              : "https://Nymph1987.github.io"
   googlescholar    : ""   # 没有就留空
-  orcid            : ""   # 没有就留空
+  orcid            : "0009-0004-0093-7239"
   semantic         : # URL
   ssrn             : # URL
   pubmed           :
