@@ -16,11 +16,11 @@ redirect_from:
 <!-- 中文内容 -->
 <div id="zh-content" style="display: none;" markdown="1">
 
-我是广州大学计算机科学与网络工程学院计算机科学与技术专业**2023级本科生**，专业排名 **1/130**，平均分 **93.16/100**，加权绩点 **93.08/100**，绩点 **3.89/4**。
+我目前就读于广州大学计算机科学与网络工程学院，专业为计算机科学与技术。作为 **2023级本科生**，目前专业排名 **1/130**，平均分 **93.16/100**，加权绩点 **93.08/100**，绩点 **3.89/4**。
 
-我的研究兴趣集中于**多模态情感识别**，包括语音、人脸、生理信号融合，以及图神经网络、自监督学习、多模态大语言模型等方向。目前有一篇论文已被 *Multimedia Systems* 录用（第一作者，**待正式见刊**），另有一篇相关工作在投（第二作者）；主持省级大创项目一项，参与国家级大创项目一项；拥有授权软著一项和公开发明专利一项。
+我的主要研究方向是**多模态情感识别**，关注语音、人脸、生理信号等多源信息的融合建模，也对图神经网络、自监督学习和多模态大语言模型等方向保持持续兴趣。当前已有一篇论文被 *Multimedia Systems* 录用（第一作者，**待正式见刊**），另有一篇相关工作在投（第二作者）；同时主持省级大创项目一项，参与国家级大创项目一项，并拥有授权软著一项和公开发明专利一项。
 
-我曾参与 ICRCV-Hongkong 分会场会议，也参与了人工智能领域教材建设相关工作。
+除科研之外，我也积极参与学术交流与教材建设工作，曾参加 ICRCV-Hongkong 分会场会议，并参与人工智能领域相关教材内容的编写。
 
 ## 教育背景与能力
 
@@ -137,13 +137,11 @@ GraphDREAM 面向对话与独白情感分类任务，主要处理多模态情感
 - [个人简历 PDF](/files/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%90%B4%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf)
 - [成绩单及排名](/files/%E6%88%90%E7%BB%A9%E5%8D%95%E5%8F%8A%E6%8E%92%E5%90%8D.pdf)
 
-## 访问统计
+<div style="margin-top: 20px; text-align: left;">
+  当前主页累计访问量：**<span id="site-pv-display-zh">100</span>**
+</div>
 
-当前主页累计访问量：**<span id="site-pv-display-zh">100</span>**
-
-<span id="busuanzi_container_site_pv" style="display: none;">
-  <span id="busuanzi_value_site_pv"></span>
-</span>
+<span id="busuanzi_value_site_pv" style="display: none !important;"></span>
 
 ---
 
@@ -155,11 +153,11 @@ Site last updated 2026-08-02， [Sitemap](/sitemap/)
 <!-- 英文内容 -->
 <div id="en-content" style="display: block;" markdown="1">
 
-I am a **2023-entry undergraduate student** majoring in Computer Science and Technology at Guangzhou University, with a major ranking of **1/130**, an average score of **93.16/100**, a weighted GPA score of **93.08/100**, and a GPA of **3.89/4**.
+I am currently an undergraduate student in Computer Science and Technology at Guangzhou University. As a **2023-entry student**, I am ranked **1/130** in my major, with an average score of **93.16/100**, a weighted GPA score of **93.08/100**, and a GPA of **3.89/4**.
 
-My research interests focus on **multimodal emotion recognition**, including the fusion of speech, facial expressions, and physiological signals, as well as graph neural networks, self-supervised learning, and multimodal large language models. One of my papers has been accepted by *Multimedia Systems* as first author and is **awaiting formal publication**. I also have another related work under review as second author. In addition, I have led one provincial-level innovation project, participated in one national-level innovation project, and obtained one software copyright and one published invention patent.
+My research mainly focuses on **multimodal emotion recognition**, especially the fusion and modeling of speech, facial expressions, and physiological signals. I am also broadly interested in graph neural networks, self-supervised learning, and multimodal large language models. At present, one of my papers has been accepted by *Multimedia Systems* as first author and is **awaiting formal publication**, while another related work is under review with me as second author. I have also led one provincial-level innovation project, participated in one national-level innovation project, and obtained one authorized software copyright and one published invention patent.
 
-I have attended the ICRCV-Hongkong session and also taken part in textbook development related to artificial intelligence.
+Beyond research, I actively take part in academic exchange and textbook development. I have attended the ICRCV-Hongkong session and participated in the writing of AI-related teaching materials.
 
 ## Education and Skills
 
@@ -274,9 +272,9 @@ I am always open to communication and collaboration on multimodal AI, affective 
 - [CV PDF](/files/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%90%B4%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf)
 - [Transcript and Ranking](/files/%E6%88%90%E7%BB%A9%E5%8D%95%E5%8F%8A%E6%8E%92%E5%90%8D.pdf)
 
-## Visitor Counter
-
-Total homepage visits: **<span id="site-pv-display-en">100</span>**
+<div style="margin-top: 20px; text-align: left;">
+  Total homepage visits: **<span id="site-pv-display-en">100</span>**
+</div>
 
 ---
 
