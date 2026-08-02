@@ -137,12 +137,6 @@ GraphDREAM 面向对话与独白情感分类任务，主要处理多模态情感
 - [个人简历 PDF](/files/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%90%B4%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf)
 - [成绩单及排名](/files/%E6%88%90%E7%BB%A9%E5%8D%95%E5%8F%8A%E6%8E%92%E5%90%8D.pdf)
 
-<div style="margin-top: 20px; text-align: left;">
-  当前主页累计访问量：**<span id="site-pv-display-zh">100</span>**
-</div>
-
-<span id="busuanzi_value_site_pv" style="display: none !important;"></span>
-
 ---
 
 © 2026 吴越，技术支持：Jekyll & AcademicPages, a fork of Minimal Mistakes.  
@@ -272,10 +266,6 @@ I am always open to communication and collaboration on multimodal AI, affective 
 - [CV PDF](/files/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%90%B4%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf)
 - [Transcript and Ranking](/files/%E6%88%90%E7%BB%A9%E5%8D%95%E5%8F%8A%E6%8E%92%E5%90%8D.pdf)
 
-<div style="margin-top: 20px; text-align: left;">
-  Total homepage visits: **<span id="site-pv-display-en">100</span>**
-</div>
-
 ---
 
 © 2026 Yue Wu, Powered by Jekyll & AcademicPages, a fork of Minimal Mistakes.  
@@ -289,7 +279,8 @@ function setSidebarLanguage(lang) {
     ['author-name-zh', 'author-name-en'],
     ['author-bio-zh', 'author-bio-en'],
     ['author-location-zh', 'author-location-en'],
-    ['author-employer-zh', 'author-employer-en']
+    ['author-employer-zh', 'author-employer-en'],
+    ['site-pv-display-zh-wrapper', 'site-pv-display-en-wrapper']
   ];
 
   mappings.forEach(function(pair) {

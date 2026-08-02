@@ -184,6 +184,12 @@
       {% if author.zhihu %}
       <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
       {% endif %}      
+      <li class="author__desktop">
+        <i class="fas fa-fw fa-chart-line icon-pad-right" aria-hidden="true"></i>
+        <span id="site-pv-display-zh-wrapper">当前主页累计访问量：<strong><span id="site-pv-display-zh">100</span></strong></span>
+        <span id="site-pv-display-en-wrapper" style="display: none;">Total homepage visits: <strong><span id="site-pv-display-en">100</span></strong></span>
+        <span id="busuanzi_value_site_pv" style="display: none !important;"></span>
+      </li>
     </ul>
   </div>
 </div>
