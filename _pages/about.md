@@ -16,16 +16,16 @@ redirect_from:
 <!-- 中文内容 -->
 <div id="zh-content" style="display: none;" markdown="1">
 
-我是广州大学计算机科学与网络工程学院计算机科学与技术专业**2022级本科生**，专业排名 **1/130**，加权平均分 **93.08/100**，绩点 **3.89/4**。
+我是广州大学计算机科学与网络工程学院计算机科学与技术专业**2023级本科生**，专业排名 **1/130**，平均分 **93.16/100**，加权绩点 **93.08/100**，绩点 **3.89/4**。
 
 我的研究兴趣集中于**多模态情感识别**，包括语音、人脸、生理信号融合，以及图神经网络、自监督学习、多模态大语言模型等方向。目前有一篇论文已被 *Multimedia Systems* 录用（第一作者，**待正式见刊**），另有一篇相关工作在投（第二作者）；主持省级大创项目一项，参与国家级大创项目一项；拥有授权软著一项和公开发明专利一项。
 
-我曾参与 ICRCV-Hongkong 分会场会议，并跟随导师彭凌西参与编写《人工智能通识》（ISBN: 978-7-115-67650-4）和《AI大模型开发实战》（ISBN: 978-7-111-79703-6）两本教材，主要负责内容撰写、案例设计与代码实现。
+我曾参与 ICRCV-Hongkong 分会场会议，也参与了人工智能领域教材建设相关工作。
 
 ## 教育背景与能力
 
 - **英语水平**：CET-4 524，CET-6 513
-- **核心课程**：机器学习与数据挖掘（98）、人工智能原理（95）、离散数学（96）、高等数学（98）、概率论与数理统计（99）
+- **核心课程**：机器学习与数据挖掘（98）、人工智能原理（95）、离散数学（96）、高等数学（98）、概率论与数理统计（99）、计算机网络（98）、编译原理（98）、计算机视觉与模式识别（100）
 - **技术能力**：熟练使用 Python，能够基于 PyTorch、TensorFlow 开展深度学习开发；熟悉 OpenCV、Transformers、Scikit-learn、Pandas 等工具；具备 Linux 环境配置、服务器部署、实验设计、算法落地和论文撰写能力。
 
 ## 代表性研究成果
@@ -36,27 +36,17 @@ redirect_from:
 
 ## 论文简介
 
-GraphDREAM 面向对话与独白情感分类任务，针对多模态情感识别中的模态冲突、图拓扑建模与情感漂移问题，构建了“净化-拓扑-校准”的渐进学习框架。模型依托 DCR 解耦模块拆分公私特征并过滤模态噪声，通过 SEHG 时空异构图建模时序与说话人交互关系，结合 MCC 多任务校准机制约束情感时序演化。
+GraphDREAM 面向对话与独白情感分类任务，主要处理多模态情感识别里常见的三个难点：不同模态之间的信息冲突、对话过程中说话人关系与时序依赖的建模，以及情绪预测在边界样本上的漂移问题。整套方法沿着“净化 - 拓扑 - 校准”的思路展开，先通过 DCR 模块拆分共享特征与私有特征，尽量滤掉噪声模态带来的干扰；再用 SEHG 时空异构图把说话人交互关系、上下文演化和模态联系一起建起来；最后借助 MCC 多任务一致性校准，让情绪表示和最终分类结果更加稳定。
 
-下面展示论文中的方法示意图，用于介绍 GraphDREAM 的整体框架。
+从图里可以比较直观地看到这条主线：左侧是文本、语音、视觉等输入特征，中间经过解耦与图结构建模后完成跨模态信息融合，右侧再通过一致性校准得到情绪预测结果。这个结构也是我在论文中重点解决问题的核心思路。
 
 <img src="/images/model.png" alt="GraphDREAM 方法示意图" style="width: 100%; max-width: 900px;">
 
-GraphDREAM 主要围绕三个关键环节展开：
-
-- **净化（Purification）**：削弱低质量模态或噪声样本对表征学习的干扰。
-- **拓扑（Topology）**：显式建模多模态之间的结构关系，增强跨模态交互能力。
-- **校准（Calibration）**：优化分类边界与输出分布，提高预测稳定性和泛化能力。
-
 在实验结果上，GraphDREAM 的多项指标刷新了对比基线：例如 IEMOCAP 六分类加权 F1 提升至 **72.52%**，CH-SIMSv2 五分类准确率达到 **57.74%**，MOSEI 二分类准确率达到 **86.43%**。
 
-**案例展示**
-
-下面展示论文中的部分案例图，用于说明模型在具体样本上的表现与分析思路。
+除了整体结构设计，论文里也对具体样本做了可视化分析。下面这组案例主要对应模型在复杂情绪样本上的判断过程，可以看到它在多模态信息不完全一致时，仍然能够利用上下文关系和模态互补信息去修正预测，这也是 GraphDREAM 相比部分基线方法更稳定的原因之一。
 
 <img src="/images/generated/graphdream-case.png" alt="GraphDREAM 案例展示" style="width: 100%; max-width: 900px;">
-
-这些案例主要用于展示模型在多模态输入下的识别效果、跨模态关系理解能力，以及在复杂情绪样本上的表现特征。
 
 ## 科研项目经历
 
@@ -85,39 +75,44 @@ GraphDREAM 主要围绕三个关键环节展开：
 - 2024 全国大学生英语作文大赛 — **省级一等奖**
 - 校一等奖学金、国家励志奖学金、校优秀学生、院优秀学生干部
 
-下面展示部分竞赛与能力证明，可左右滑动查看：
+下面列出部分竞赛证书与能力证明，可左右滑动查看：
 
 <div style="display: flex; gap: 16px; overflow-x: auto; padding: 8px 0 16px; scroll-snap-type: x mandatory;">
   <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
-    <img src="/images/亚太杯.png" alt="APMCM 证书" style="width: 100%; border-radius: 8px;">
+    <div style="height: 260px; display: flex; align-items: center; justify-content: center; background: #fff;">
+      <img src="/images/亚太杯.png" alt="APMCM 证书" style="max-width: 100%; max-height: 260px; width: auto; height: auto; border-radius: 8px;">
+    </div>
     <figcaption style="margin-top: 8px; font-size: 0.95em;">APMCM 国家级一等奖证书</figcaption>
   </figure>
   <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
-    <img src="/images/数维杯.png" alt="微维杯证书" style="width: 100%; border-radius: 8px;">
+    <div style="height: 260px; display: flex; align-items: center; justify-content: center; background: #fff;">
+      <img src="/images/数维杯.png" alt="微维杯证书" style="max-width: 100%; max-height: 260px; width: auto; height: auto; border-radius: 8px;">
+    </div>
     <figcaption style="margin-top: 8px; font-size: 0.95em;">微维杯国家级一等奖证书</figcaption>
   </figure>
   <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
-    <img src="/images/英语作文大赛.jpg" alt="英语能力证明" style="width: 100%; border-radius: 8px;">
+    <div style="height: 260px; display: flex; align-items: center; justify-content: center; background: #fff;">
+      <img src="/images/英语作文大赛.jpg" alt="英语能力证明" style="max-width: 100%; max-height: 260px; width: auto; height: auto; border-radius: 8px;">
+    </div>
     <figcaption style="margin-top: 8px; font-size: 0.95em;">英语能力与竞赛证明</figcaption>
   </figure>
   <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
-    <img src="/images/AIC.png" alt="AIC 国家优秀奖证书" style="width: 100%; border-radius: 8px;">
+    <div style="height: 260px; display: flex; align-items: center; justify-content: center; background: #fff;">
+      <img src="/images/AIC.png" alt="AIC 国家优秀奖证书" style="max-width: 100%; max-height: 260px; width: auto; height: auto; border-radius: 8px;">
+    </div>
     <figcaption style="margin-top: 8px; font-size: 0.95em;">AIC 全国总决赛优秀奖证书</figcaption>
   </figure>
   <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
-    <img src="/images/AIC2.png" alt="AIC 省级二等奖证书" style="width: 100%; border-radius: 8px;">
+    <div style="height: 260px; display: flex; align-items: center; justify-content: center; background: #fff;">
+      <img src="/images/AIC2.png" alt="AIC 省级二等奖证书" style="max-width: 100%; max-height: 260px; width: auto; height: auto; border-radius: 8px;">
+    </div>
     <figcaption style="margin-top: 8px; font-size: 0.95em;">AIC 省级二等奖证书</figcaption>
   </figure>
 </div>
 
-## 资料与证明
-
-- [个人简历 PDF](/files/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%90%B4%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf)
-- [成绩单及排名](/files/%E6%88%90%E7%BB%A9%E5%8D%95%E5%8F%8A%E6%8E%92%E5%90%8D.pdf)
-
 ## 学术活动
 
-<img src="/images/学术会议.jpg" alt="学术会议" style="width: 100%; max-width: 720px;">
+<img src="/images/学术会议.jpg" alt="学术会议" style="width: 100%; max-width: 520px;">
 
 参与 ICRCV-Hongkong 分会场等学术交流活动，持续关注多模态智能、情感计算与相关前沿研究。
 
@@ -127,9 +122,14 @@ GraphDREAM 主要围绕三个关键环节展开：
 
 <img src="/images/AI大模型开发实战_ISBN%20978-7-111-79703-6.png" alt="AI大模型开发实战" style="width: 100%; max-width: 720px; margin-top: 16px;">
 
-参与《人工智能通识》与《AI大模型开发实战》的内容撰写、案例设计与代码实现，其中《AI大模型开发实战》对应第六章“多模态应用开发”相关工作。
+课外跟随导师彭凌西参与人工智能领域教材建设工作，参与编写《人工智能通识》（ISBN：978-7-115-67650-4）项目 2，以及《AI大模型开发实战》（唐春明、彭凌西、黄永健等主编，ISBN：978-7-111-79703-6）第六章“多模态应用开发”。我主要负责相关内容撰写、案例设计、代码实现与技术资料整理工作。
 
 欢迎对多模态 AI、情感计算、智能交互感兴趣的同学和朋友交流合作！
+
+## 资料与证明
+
+- [个人简历 PDF](/files/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%90%B4%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf)
+- [成绩单及排名](/files/%E6%88%90%E7%BB%A9%E5%8D%95%E5%8F%8A%E6%8E%92%E5%90%8D.pdf)
 
 ---
 
@@ -142,16 +142,16 @@ Site last updated 2026-08-02， [Sitemap](/sitemap/)
 <!-- 英文内容 -->
 <div id="en-content" style="display: block;" markdown="1">
 
-I am an undergraduate student majoring in Computer Science and Technology at Guangzhou University, with a major ranking of **1/130**, a weighted GPA of **93.08/100**, and a GPA of **3.89/4**.
+I am a **2023-entry undergraduate student** majoring in Computer Science and Technology at Guangzhou University, with a major ranking of **1/130**, an average score of **93.16/100**, a weighted GPA score of **93.08/100**, and a GPA of **3.89/4**.
 
 My research interests focus on **multimodal emotion recognition**, including the fusion of speech, facial expressions, and physiological signals, as well as graph neural networks, self-supervised learning, and multimodal large language models. One of my papers has been accepted by *Multimedia Systems* as first author and is **awaiting formal publication**. I also have another related work under review as second author. In addition, I have led one provincial-level innovation project, participated in one national-level innovation project, and obtained one software copyright and one published invention patent.
 
-I have attended the ICRCV-Hongkong session and contributed to the writing, case design, and code implementation of two AI textbooks under the supervision of Prof. Peng Lingxi: *Introduction to Artificial Intelligence* and *Hands-on Development of AI Large Models*.
+I have attended the ICRCV-Hongkong session and also taken part in textbook development related to artificial intelligence.
 
 ## Education and Skills
 
 - **English proficiency**: CET-4 524, CET-6 513
-- **Core courses**: Machine Learning and Data Mining, Principles of Artificial Intelligence, Discrete Mathematics, Advanced Mathematics, Probability and Statistics
+- **Core courses**: Machine Learning and Data Mining (98), Principles of Artificial Intelligence (95), Discrete Mathematics (96), Advanced Mathematics (98), Probability and Statistics (99), Computer Networks (98), Compiler Principles (98), Computer Vision and Pattern Recognition (100)
 - **Technical skills**: Proficient in Python and deep learning development with PyTorch and TensorFlow; familiar with OpenCV, Transformers, Scikit-learn, and Pandas; capable of Linux deployment, experiment design, algorithm implementation, and academic writing.
 
 ## Selected Research Highlights
@@ -162,27 +162,17 @@ I have attended the ICRCV-Hongkong session and contributed to the writing, case 
 
 ## Paper Overview
 
-GraphDREAM targets dialogue and monologue emotion classification, addressing modality conflict, graph topology modeling, and emotion drift in multimodal emotion recognition. The framework follows a progressive path of purification, topology modeling, and calibration. It uses a decoupled representation module to separate private and shared features, a spatio-temporal heterogeneous graph to model temporal and speaker interactions, and a multi-task consistency calibration mechanism to stabilize emotional evolution.
+GraphDREAM is designed for dialogue and monologue emotion classification. The work focuses on three recurring challenges in multimodal emotion recognition: conflicting signals across modalities, the difficulty of modeling speaker interaction and temporal dependency, and unstable predictions on hard emotional samples. The framework follows a progressive path of purification, topology modeling, and calibration. It first uses a decoupled representation module to separate shared and private information while suppressing noisy modalities, then builds a spatio-temporal heterogeneous graph to model speaker relations and contextual evolution, and finally applies multi-task consistency calibration to make emotion prediction more stable.
 
-The following figure introduces the overall framework of GraphDREAM.
+The figure below reflects this main idea clearly: multimodal inputs enter from the left, pass through decoupling and graph-based interaction modeling in the middle, and are further refined on the right before the final emotion output is produced. This is also the central line of the method design in the paper.
 
 <img src="/images/model.png" alt="GraphDREAM Framework Illustration" style="width: 100%; max-width: 900px;">
 
-GraphDREAM mainly includes three key stages:
-
-- **Purification**: reducing the interference of noisy modalities or low-quality inputs.
-- **Topology**: explicitly modeling structural relations across modalities.
-- **Calibration**: improving prediction stability and generalization by refining output distributions.
-
 In experiments, GraphDREAM achieved strong results across multiple benchmarks. For example, the weighted F1 on IEMOCAP 6-class reached **72.52%**, the 5-class accuracy on CH-SIMSv2 reached **57.74%**, and the binary accuracy on MOSEI reached **86.43%**.
 
-**Case Visualization**
-
-The following figure presents part of the case analysis from the paper, showing how the model behaves on specific multimodal samples.
+The paper also includes case-level visualization on difficult samples. In these examples, the model can still make more reliable predictions when different modalities are not fully aligned, because it makes use of contextual dependency and complementary cues across modalities. That is one of the main reasons why GraphDREAM remains relatively stable compared with several baselines.
 
 <img src="/images/generated/graphdream-case.png" alt="GraphDREAM Case Visualization" style="width: 100%; max-width: 900px;">
-
-These examples are used to illustrate the model's recognition behavior, cross-modal understanding, and performance on complex emotional samples.
 
 ## Research Project Experience
 
@@ -215,35 +205,40 @@ Selected certificates and supporting documents are shown below. You can scroll h
 
 <div style="display: flex; gap: 16px; overflow-x: auto; padding: 8px 0 16px; scroll-snap-type: x mandatory;">
   <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
-    <img src="/images/亚太杯.png" alt="APMCM Certificate" style="width: 100%; border-radius: 8px;">
+    <div style="height: 260px; display: flex; align-items: center; justify-content: center; background: #fff;">
+      <img src="/images/亚太杯.png" alt="APMCM Certificate" style="max-width: 100%; max-height: 260px; width: auto; height: auto; border-radius: 8px;">
+    </div>
     <figcaption style="margin-top: 8px; font-size: 0.95em;">APMCM National First Prize Certificate</figcaption>
   </figure>
   <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
-    <img src="/images/数维杯.png" alt="Mathematical Modeling Certificate" style="width: 100%; border-radius: 8px;">
+    <div style="height: 260px; display: flex; align-items: center; justify-content: center; background: #fff;">
+      <img src="/images/数维杯.png" alt="Mathematical Modeling Certificate" style="max-width: 100%; max-height: 260px; width: auto; height: auto; border-radius: 8px;">
+    </div>
     <figcaption style="margin-top: 8px; font-size: 0.95em;">Weiwei Cup National First Prize Certificate</figcaption>
   </figure>
   <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
-    <img src="/images/英语作文大赛.jpg" alt="English Ability Certificate" style="width: 100%; border-radius: 8px;">
+    <div style="height: 260px; display: flex; align-items: center; justify-content: center; background: #fff;">
+      <img src="/images/英语作文大赛.jpg" alt="English Ability Certificate" style="max-width: 100%; max-height: 260px; width: auto; height: auto; border-radius: 8px;">
+    </div>
     <figcaption style="margin-top: 8px; font-size: 0.95em;">English Ability and Competition Certificate</figcaption>
   </figure>
   <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
-    <img src="/images/AIC.png" alt="AIC National Final Certificate" style="width: 100%; border-radius: 8px;">
+    <div style="height: 260px; display: flex; align-items: center; justify-content: center; background: #fff;">
+      <img src="/images/AIC.png" alt="AIC National Final Certificate" style="max-width: 100%; max-height: 260px; width: auto; height: auto; border-radius: 8px;">
+    </div>
     <figcaption style="margin-top: 8px; font-size: 0.95em;">AIC National Final Excellence Award</figcaption>
   </figure>
   <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
-    <img src="/images/AIC2.png" alt="AIC Provincial Certificate" style="width: 100%; border-radius: 8px;">
+    <div style="height: 260px; display: flex; align-items: center; justify-content: center; background: #fff;">
+      <img src="/images/AIC2.png" alt="AIC Provincial Certificate" style="max-width: 100%; max-height: 260px; width: auto; height: auto; border-radius: 8px;">
+    </div>
     <figcaption style="margin-top: 8px; font-size: 0.95em;">AIC Provincial Second Prize</figcaption>
   </figure>
 </div>
 
-## Materials
-
-- [CV PDF](/files/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%90%B4%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf)
-- [Transcript and Ranking](/files/%E6%88%90%E7%BB%A9%E5%8D%95%E5%8F%8A%E6%8E%92%E5%90%8D.pdf)
-
 ## Academic Activity
 
-<img src="/images/学术会议.jpg" alt="Academic Activity" style="width: 100%; max-width: 720px;">
+<img src="/images/学术会议.jpg" alt="Academic Activity" style="width: 100%; max-width: 520px;">
 
 ## Textbook Participation
 
@@ -251,9 +246,14 @@ Selected certificates and supporting documents are shown below. You can scroll h
 
 <img src="/images/AI大模型开发实战_ISBN%20978-7-111-79703-6.png" alt="Hands-on Development of AI Large Models" style="width: 100%; max-width: 720px; margin-top: 16px;">
 
-I contributed to the writing, case design, and code implementation of both *Introduction to Artificial Intelligence* and *Hands-on Development of AI Large Models*, including work related to the chapter on multimodal application development.
+Outside the classroom, I joined Prof. Peng Lingxi in textbook development work in artificial intelligence. I participated in Project 2 of *Introduction to Artificial Intelligence* (ISBN: 978-7-115-67650-4) and Chapter 6, "Multimodal Application Development," of *Hands-on Development of AI Large Models* (chief editors: Tang Chunming, Peng Lingxi, Huang Yongjian, etc.; ISBN: 978-7-111-79703-6). My work mainly covered content writing, case design, code implementation, and technical material organization.
 
 I am always open to communication and collaboration on multimodal AI, affective computing, and intelligent interaction.
+
+## Materials
+
+- [CV PDF](/files/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%90%B4%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf)
+- [Transcript and Ranking](/files/%E6%88%90%E7%BB%A9%E5%8D%95%E5%8F%8A%E6%8E%92%E5%90%8D.pdf)
 
 ---
 
