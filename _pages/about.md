@@ -19,7 +19,7 @@ redirect_from:
 ## 教育背景与能力
 
 - **英语水平**：CET-4 524，CET-6 513
-- **核心课程**：机器学习与数据挖掘（98）、人工智能原理（95）、离散数学（96）、高等数学（98）、概率论与数理统计（99）、计算机网络（98）、编译原理（98）、计算机视觉与模式识别（100）
+- **核心课程**：机器学习与数据挖掘（98）、人工智能原理（95）、离散数学（96）、高等数学（98）、概率论与数理统计（99）
 - **技术能力**：熟练使用 Python，能够基于 PyTorch、TensorFlow 开展深度学习开发；熟悉 OpenCV、Transformers、Scikit-learn、Pandas 等工具；具备 Linux 环境配置、服务器部署、实验设计、算法落地和论文撰写能力。
 
 ## 代表性研究成果
@@ -150,7 +150,7 @@ Beyond research, I actively take part in academic exchange and textbook developm
 ## Education and Skills
 
 - **English proficiency**: CET-4 524, CET-6 513
-- **Core courses**: Machine Learning and Data Mining (98), Principles of Artificial Intelligence (95), Discrete Mathematics (96), Advanced Mathematics (98), Probability and Statistics (99), Computer Networks (98), Compiler Principles (98), Computer Vision and Pattern Recognition (100)
+- **Core courses**: Machine Learning and Data Mining (98), Principles of Artificial Intelligence (95), Discrete Mathematics (96), Advanced Mathematics (98), Probability and Statistics (99)
 - **Technical skills**: Proficient in Python and deep learning development with PyTorch and TensorFlow; familiar with OpenCV, Transformers, Scikit-learn, and Pandas; capable of Linux deployment, experiment design, algorithm implementation, and academic writing.
 
 ## Selected Research Highlights
