@@ -34,9 +34,11 @@ redirect_from:
 - **CRM-Net** (在投，第二作者)：借鉴认知精细化感知机理，在 CMU-MOSI 和 CMU-MOSEI 上取得显著性能提升。
 - **MoodLens** (软件著作权)：基于多模态情感识别技术的网页系统，融合人脸、语音、文本实时分析情感状态并提供 emoji 反馈。
 
-## GraphDREAM 方法示意图
+## 论文简介
 
-下面直接展示论文中的方法示意图，用于介绍 GraphDREAM 的整体框架。论文目前尚未正式线上出版，因此这里仅展示方法图和说明，不公开全文 PDF。
+GraphDREAM 面向对话与独白情感分类任务，针对多模态情感识别中的模态冲突、图拓扑建模与情感漂移问题，构建了“净化-拓扑-校准”的渐进学习框架。模型依托 DCR 解耦模块拆分公私特征并过滤模态噪声，通过 SEHG 时空异构图建模时序与说话人交互关系，结合 MCC 多任务校准机制约束情感时序演化。
+
+下面展示论文中的方法示意图，用于介绍 GraphDREAM 的整体框架。
 
 <img src="/images/model.png" alt="GraphDREAM 方法示意图" style="width: 100%; max-width: 900px;">
 
@@ -48,25 +50,25 @@ GraphDREAM 主要围绕三个关键环节展开：
 
 在实验结果上，GraphDREAM 的多项指标刷新了对比基线：例如 IEMOCAP 六分类加权 F1 提升至 **72.52%**，CH-SIMSv2 五分类准确率达到 **57.74%**，MOSEI 二分类准确率达到 **86.43%**。
 
-## GraphDREAM 案例展示
+**案例展示**
 
-下面直接展示论文中的部分案例图，用于说明模型在具体样本上的表现与分析思路。
+下面展示论文中的部分案例图，用于说明模型在具体样本上的表现与分析思路。
 
 <img src="/images/generated/graphdream-case.png" alt="GraphDREAM 案例展示" style="width: 100%; max-width: 900px;">
 
 这些案例主要用于展示模型在多模态输入下的识别效果、跨模态关系理解能力，以及在复杂情绪样本上的表现特征。
 
-## 项目经历
+## 科研项目经历
 
 ### 省级大创
 
-**《协同感知与语义锚定：基于跨模态注意力机制的多模态情感计算研究》**（负责人）
+**《协同感知与语义锚定：基于跨模态注意力机制的多模态情感计算研究》 负责人**
 
 针对真实场景中的模态缺失与噪声干扰问题，提出基于跨模态注意力的鲁棒情感识别方法。我主导设计局部-全局图神经网络架构与主导模态校正模块，负责模型训练调优与算法探索，提升了不完整数据场景下的识别准确率与鲁棒性。
 
 ### 国家级大创
 
-**《骨康智链——针对骨科术后康复的多模态融合个性化方案生成》**（核心团队成员）
+**《骨康智链——针对骨科术后康复的多模态融合个性化方案生成》 核心团队成员**
 
 面向骨科术后康复方案个性化制定问题，设计多模态融合生成模型。我负责核心算法研发，参与特征划分、模态编码器和多任务解码器设计，用于解决模态缺失与康复预测问题。
 
@@ -87,16 +89,24 @@ GraphDREAM 主要围绕三个关键环节展开：
 
 <div style="display: flex; gap: 16px; overflow-x: auto; padding: 8px 0 16px; scroll-snap-type: x mandatory;">
   <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
-    <img src="/images/generated/award-apmcm.png" alt="APMCM 证书" style="width: 100%; border-radius: 8px;">
+    <img src="/images/亚太杯.png" alt="APMCM 证书" style="width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-size: 0.95em;">APMCM 国家级一等奖证书</figcaption>
   </figure>
   <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
-    <img src="/images/generated/award-shuwei.png" alt="微维杯证书" style="width: 100%; border-radius: 8px;">
+    <img src="/images/数维杯.png" alt="微维杯证书" style="width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-size: 0.95em;">微维杯国家级一等奖证书</figcaption>
   </figure>
   <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
-    <img src="/images/generated/award-english.png" alt="英语能力证明" style="width: 100%; border-radius: 8px;">
+    <img src="/images/英语作文大赛.jpg" alt="英语能力证明" style="width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-size: 0.95em;">英语能力与竞赛证明</figcaption>
+  </figure>
+  <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
+    <img src="/images/AIC.png" alt="AIC 国家优秀奖证书" style="width: 100%; border-radius: 8px;">
+    <figcaption style="margin-top: 8px; font-size: 0.95em;">AIC 全国总决赛优秀奖证书</figcaption>
+  </figure>
+  <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
+    <img src="/images/AIC2.png" alt="AIC 省级二等奖证书" style="width: 100%; border-radius: 8px;">
+    <figcaption style="margin-top: 8px; font-size: 0.95em;">AIC 省级二等奖证书</figcaption>
   </figure>
 </div>
 
@@ -105,19 +115,19 @@ GraphDREAM 主要围绕三个关键环节展开：
 - [个人简历 PDF](/files/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%90%B4%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf)
 - [成绩单及排名](/files/%E6%88%90%E7%BB%A9%E5%8D%95%E5%8F%8A%E6%8E%92%E5%90%8D.pdf)
 
-## 补充展示
-
-### 学术活动
+## 学术活动
 
 <img src="/images/学术会议.jpg" alt="学术会议" style="width: 100%; max-width: 720px;">
 
 参与 ICRCV-Hongkong 分会场等学术交流活动，持续关注多模态智能、情感计算与相关前沿研究。
 
-### 教材编写
+## 教材编写
 
 <img src="/images/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%80%9A%E8%AF%86_ISBN%20978-7-115-67650-4.png" alt="人工智能通识" style="width: 100%; max-width: 720px;">
 
-参与《人工智能通识》与《AI大模型开发实战》的内容撰写、案例设计与代码实现。
+<img src="/images/AI大模型开发实战_ISBN%20978-7-111-79703-6.png" alt="AI大模型开发实战" style="width: 100%; max-width: 720px; margin-top: 16px;">
+
+参与《人工智能通识》与《AI大模型开发实战》的内容撰写、案例设计与代码实现，其中《AI大模型开发实战》对应第六章“多模态应用开发”相关工作。
 
 欢迎对多模态 AI、情感计算、智能交互感兴趣的同学和朋友交流合作！
 
@@ -150,9 +160,11 @@ I have attended the ICRCV-Hongkong session and contributed to the writing, case 
 - **CRM-Net** (under review, second author): a cognition-inspired method for improving performance on CMU-MOSI and CMU-MOSEI.
 - **MoodLens** (software copyright): a web-based multimodal emotion recognition system integrating face, voice, and text analysis.
 
-## GraphDREAM Framework Illustration
+## Paper Overview
 
-The following figure is directly embedded to introduce the overall framework of GraphDREAM. Since the paper has not yet been formally published online, I only present the method illustration and explanation here instead of the full paper PDF.
+GraphDREAM targets dialogue and monologue emotion classification, addressing modality conflict, graph topology modeling, and emotion drift in multimodal emotion recognition. The framework follows a progressive path of purification, topology modeling, and calibration. It uses a decoupled representation module to separate private and shared features, a spatio-temporal heterogeneous graph to model temporal and speaker interactions, and a multi-task consistency calibration mechanism to stabilize emotional evolution.
+
+The following figure introduces the overall framework of GraphDREAM.
 
 <img src="/images/model.png" alt="GraphDREAM Framework Illustration" style="width: 100%; max-width: 900px;">
 
@@ -164,25 +176,25 @@ GraphDREAM mainly includes three key stages:
 
 In experiments, GraphDREAM achieved strong results across multiple benchmarks. For example, the weighted F1 on IEMOCAP 6-class reached **72.52%**, the 5-class accuracy on CH-SIMSv2 reached **57.74%**, and the binary accuracy on MOSEI reached **86.43%**.
 
-## GraphDREAM Case Visualization
+**Case Visualization**
 
-The following embedded figure presents part of the case analysis from the paper, showing how the model behaves on specific multimodal samples.
+The following figure presents part of the case analysis from the paper, showing how the model behaves on specific multimodal samples.
 
 <img src="/images/generated/graphdream-case.png" alt="GraphDREAM Case Visualization" style="width: 100%; max-width: 900px;">
 
 These examples are used to illustrate the model's recognition behavior, cross-modal understanding, and performance on complex emotional samples.
 
-## Project Experience
+## Research Project Experience
 
 ### Provincial Innovation Project
 
-**Collaborative Perception and Semantic Anchoring: Multimodal Emotion Computing Based on Cross-modal Attention** (Principal Investigator)
+**Collaborative Perception and Semantic Anchoring: Multimodal Emotion Computing Based on Cross-modal Attention - Principal Investigator**
 
 This project targets missing modalities and noisy inputs in real-world settings. I led the design of a local-global graph neural architecture and a dominant-modality correction module, and was responsible for training, tuning, and algorithm exploration.
 
 ### National Innovation Project
 
-**BoneRehab Intelligence Chain: Personalized Multimodal Plan Generation for Orthopedic Postoperative Rehabilitation** (Core Team Member)
+**BoneRehab Intelligence Chain: Personalized Multimodal Plan Generation for Orthopedic Postoperative Rehabilitation - Core Team Member**
 
 This project focuses on personalized rehabilitation planning. I contributed to the core algorithm design, including feature partitioning, modality encoders, and a multitask decoder for multimodal generation and prediction.
 
@@ -203,16 +215,24 @@ Selected certificates and supporting documents are shown below. You can scroll h
 
 <div style="display: flex; gap: 16px; overflow-x: auto; padding: 8px 0 16px; scroll-snap-type: x mandatory;">
   <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
-    <img src="/images/generated/award-apmcm.png" alt="APMCM Certificate" style="width: 100%; border-radius: 8px;">
+    <img src="/images/亚太杯.png" alt="APMCM Certificate" style="width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-size: 0.95em;">APMCM National First Prize Certificate</figcaption>
   </figure>
   <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
-    <img src="/images/generated/award-shuwei.png" alt="Mathematical Modeling Certificate" style="width: 100%; border-radius: 8px;">
+    <img src="/images/数维杯.png" alt="Mathematical Modeling Certificate" style="width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-size: 0.95em;">Weiwei Cup National First Prize Certificate</figcaption>
   </figure>
   <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
-    <img src="/images/generated/award-english.png" alt="English Ability Certificate" style="width: 100%; border-radius: 8px;">
+    <img src="/images/英语作文大赛.jpg" alt="English Ability Certificate" style="width: 100%; border-radius: 8px;">
     <figcaption style="margin-top: 8px; font-size: 0.95em;">English Ability and Competition Certificate</figcaption>
+  </figure>
+  <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
+    <img src="/images/AIC.png" alt="AIC National Final Certificate" style="width: 100%; border-radius: 8px;">
+    <figcaption style="margin-top: 8px; font-size: 0.95em;">AIC National Final Excellence Award</figcaption>
+  </figure>
+  <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
+    <img src="/images/AIC2.png" alt="AIC Provincial Certificate" style="width: 100%; border-radius: 8px;">
+    <figcaption style="margin-top: 8px; font-size: 0.95em;">AIC Provincial Second Prize</figcaption>
   </figure>
 </div>
 
@@ -221,15 +241,17 @@ Selected certificates and supporting documents are shown below. You can scroll h
 - [CV PDF](/files/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%90%B4%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf)
 - [Transcript and Ranking](/files/%E6%88%90%E7%BB%A9%E5%8D%95%E5%8F%8A%E6%8E%92%E5%90%8D.pdf)
 
-## Additional Presentation
-
-### Academic Activity
+## Academic Activity
 
 <img src="/images/学术会议.jpg" alt="Academic Activity" style="width: 100%; max-width: 720px;">
 
-### Textbook Participation
+## Textbook Participation
 
 <img src="/images/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%80%9A%E8%AF%86_ISBN%20978-7-115-67650-4.png" alt="AI Textbook" style="width: 100%; max-width: 720px;">
+
+<img src="/images/AI大模型开发实战_ISBN%20978-7-111-79703-6.png" alt="Hands-on Development of AI Large Models" style="width: 100%; max-width: 720px; margin-top: 16px;">
+
+I contributed to the writing, case design, and code implementation of both *Introduction to Artificial Intelligence* and *Hands-on Development of AI Large Models*, including work related to the chapter on multimodal application development.
 
 I am always open to communication and collaboration on multimodal AI, affective computing, and intelligent interaction.
 
