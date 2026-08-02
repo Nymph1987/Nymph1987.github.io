@@ -52,7 +52,7 @@
       {% if author.email %}
         <li>
           <i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>
-          <span>{{ author.email | replace: " / ", "<br>" }}</span>
+          <span>{{ author.email | replace: " / ", " /<br>" }}</span>
         </li>
       {% endif %}
       {% if author.wechat %}
