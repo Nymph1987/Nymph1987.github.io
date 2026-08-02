@@ -83,28 +83,27 @@ GraphDREAM 主要围绕三个关键环节展开：
 - 2024 全国大学生英语作文大赛 — **省级一等奖**
 - 校一等奖学金、国家励志奖学金、校优秀学生、院优秀学生干部
 
+下面展示部分竞赛与能力证明，可左右滑动查看：
+
+<div style="display: flex; gap: 16px; overflow-x: auto; padding: 8px 0 16px; scroll-snap-type: x mandatory;">
+  <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
+    <img src="/images/generated/award-apmcm.png" alt="APMCM 证书" style="width: 100%; border-radius: 8px;">
+    <figcaption style="margin-top: 8px; font-size: 0.95em;">APMCM 国家级一等奖证书</figcaption>
+  </figure>
+  <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
+    <img src="/images/generated/award-shuwei.png" alt="微维杯证书" style="width: 100%; border-radius: 8px;">
+    <figcaption style="margin-top: 8px; font-size: 0.95em;">微维杯国家级一等奖证书</figcaption>
+  </figure>
+  <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
+    <img src="/images/generated/award-english.png" alt="英语能力证明" style="width: 100%; border-radius: 8px;">
+    <figcaption style="margin-top: 8px; font-size: 0.95em;">英语能力与竞赛证明</figcaption>
+  </figure>
+</div>
+
 ## 资料与证明
 
 - [个人简历 PDF](/files/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%90%B4%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf)
 - [成绩单及排名](/files/%E6%88%90%E7%BB%A9%E5%8D%95%E5%8F%8A%E6%8E%92%E5%90%8D.pdf)
-
-## 比赛与能力证明展示
-
-### APMCM 证书
-
-<img src="/images/generated/award-apmcm.png" alt="APMCM 证书" style="width: 100%; max-width: 900px;">
-
-### 微维杯证书
-
-<img src="/images/generated/award-shuwei.png" alt="微维杯证书" style="width: 100%; max-width: 900px;">
-
-### 英语能力证明
-
-<img src="/images/generated/award-english.png" alt="英语能力证明" style="width: 100%; max-width: 900px;">
-
-### 软件著作权证明
-
-<img src="/files/%E8%BD%AF%E8%91%97-%E8%AE%A1%E7%A7%91231%EF%BC%88%E5%88%9B%EF%BC%89%E5%90%B4%E8%B6%8A_01.png" alt="软件著作权证明" style="width: 100%; max-width: 900px;">
 
 ## 补充展示
 
@@ -125,7 +124,6 @@ GraphDREAM 主要围绕三个关键环节展开：
 ---
 
 GitHub：Nymph1987  
-打赏：如有需要可私下联系  
 © 2026 吴越，技术支持：Jekyll & AcademicPages, a fork of Minimal Mistakes.  
 Site last updated 2026-08-02， [Sitemap](/sitemap/)
 
@@ -201,28 +199,27 @@ This project focuses on personalized rehabilitation planning. I contributed to t
 - 2024 National College English Writing Contest — **Provincial First Prize**
 - University First-Class Scholarship, National Encouragement Scholarship, Outstanding Student, Outstanding Student Leader
 
+Selected certificates and supporting documents are shown below. You can scroll horizontally to view them:
+
+<div style="display: flex; gap: 16px; overflow-x: auto; padding: 8px 0 16px; scroll-snap-type: x mandatory;">
+  <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
+    <img src="/images/generated/award-apmcm.png" alt="APMCM Certificate" style="width: 100%; border-radius: 8px;">
+    <figcaption style="margin-top: 8px; font-size: 0.95em;">APMCM National First Prize Certificate</figcaption>
+  </figure>
+  <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
+    <img src="/images/generated/award-shuwei.png" alt="Mathematical Modeling Certificate" style="width: 100%; border-radius: 8px;">
+    <figcaption style="margin-top: 8px; font-size: 0.95em;">Weiwei Cup National First Prize Certificate</figcaption>
+  </figure>
+  <figure style="min-width: 320px; max-width: 420px; margin: 0; scroll-snap-align: start;">
+    <img src="/images/generated/award-english.png" alt="English Ability Certificate" style="width: 100%; border-radius: 8px;">
+    <figcaption style="margin-top: 8px; font-size: 0.95em;">English Ability and Competition Certificate</figcaption>
+  </figure>
+</div>
+
 ## Materials
 
 - [CV PDF](/files/%E5%B9%BF%E5%B7%9E%E5%A4%A7%E5%AD%A6%E5%90%B4%E8%B6%8A_%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.pdf)
 - [Transcript and Ranking](/files/%E6%88%90%E7%BB%A9%E5%8D%95%E5%8F%8A%E6%8E%92%E5%90%8D.pdf)
-
-## Award and Certificate Display
-
-### APMCM Certificate
-
-<img src="/images/generated/award-apmcm.png" alt="APMCM Certificate" style="width: 100%; max-width: 900px;">
-
-### Mathematical Modeling Certificate
-
-<img src="/images/generated/award-shuwei.png" alt="Mathematical Modeling Certificate" style="width: 100%; max-width: 900px;">
-
-### English Ability Certificate
-
-<img src="/images/generated/award-english.png" alt="English Ability Certificate" style="width: 100%; max-width: 900px;">
-
-### Software Copyright
-
-<img src="/files/%E8%BD%AF%E8%91%97-%E8%AE%A1%E7%A7%91231%EF%BC%88%E5%88%9B%EF%BC%89%E5%90%B4%E8%B6%8A_01.png" alt="Software Copyright" style="width: 100%; max-width: 900px;">
 
 ## Additional Presentation
 
@@ -239,7 +236,6 @@ I am always open to communication and collaboration on multimodal AI, affective 
 ---
 
 GitHub: Nymph1987  
-Support: available on request  
 © 2026 Yue Wu, Powered by Jekyll & AcademicPages, a fork of Minimal Mistakes.  
 Site last updated 2026-08-02, [Sitemap](/sitemap/)
 
