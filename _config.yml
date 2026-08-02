@@ -19,9 +19,13 @@ repository               : "Nymph1987/Nymph1987.github.io"
 # Site Author
 author:
   name             : "吴越"
+  name_en          : "Yue Wu"
   bio              : "广州大学计算机科学与技术专业本科生，研究方向为多模态情感识别。"
+  bio_en           : "Undergraduate student in Computer Science and Technology at Guangzhou University, focusing on multimodal emotion recognition."
   location         : "广州，中国"
+  location_en      : "Guangzhou, China"
   employer         : "广州大学"
+  employer_en      : "Guangzhou University"
   email            : "3187839269@qq.com"  # 用你自己的
   github           : "Nymph1987"
   uri              : "https://Nymph1987.github.io"
