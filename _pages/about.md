@@ -7,18 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-<!-- 语言切换按钮 -->
-<div style="text-align: right; margin-bottom: 20px;">
-  <img src="/images/icon_切换中英文.png" alt="切换语言" style="width: 40px; height: 40px; cursor: pointer;" onclick="toggleLanguage()" id="langBtn">
-  <span id="langLabel" style="font-size: 14px; margin-left: 8px; color: #666;">English</span>
-</div>
-
 <!-- 中文内容 -->
 <div id="zh-content" style="display: none;" markdown="1">
 
 我目前就读于广州大学计算机科学与网络工程学院，专业为计算机科学与技术。作为 **2023级本科生**，目前专业排名 **1/130**，平均分 **93.16/100**，加权绩点 **93.08/100**，绩点 **3.89/4**。
 
-我的主要研究方向是**多模态情感识别**，关注语音、人脸、生理信号等多源信息的融合建模，也对图神经网络、自监督学习和多模态大语言模型等方向保持持续兴趣。当前已有一篇论文被 *Multimedia Systems* 录用（第一作者，**待正式见刊**），另有一篇相关工作在投（第二作者）；同时主持省级大创项目一项，参与国家级大创项目一项，并拥有授权软著一项和公开发明专利一项。
+我的主要研究方向是**多模态情感识别**，关注语音、人脸、生理信号等多源信息的融合建模，也持续关注图神经网络、自监督学习和多模态大模型等相关方法。当前已有一篇论文被 *Multimedia Systems* 录用（第一作者，**待正式见刊**），另有一篇相关工作在投（第二作者）；同时主持省级大创项目一项，参与国家级大创项目一项，并拥有授权软著一项和发明专利公布成果一项。
 
 除科研之外，我也积极参与学术交流与教材建设工作，曾参加 ICRCV-Hongkong 分会场会议，并参与人工智能领域相关教材内容的编写。
 
@@ -79,7 +73,7 @@ GraphDREAM 面向对话与独白情感分类任务，主要处理多模态情感
 - 2025 微维杯大学生数学建模挑战赛 — **国家级一等奖**
 - 2025 全球人工智能算法精英大赛 — **省级二等奖 / 国家优秀奖**
 - 2024 全国大学生英语作文大赛 — **省级一等奖**
-- 校一等奖学金、国家励志奖学金、校优秀学生、院优秀学生干部
+- 校一等奖学金、国家励志奖学金、校优秀学生、院优秀学生干部、院优秀团员
 
 下面列出部分竞赛证书与能力证明，可左右滑动查看：
 
@@ -149,7 +143,7 @@ Site last updated 2026-08-02， [Sitemap](/sitemap/)
 
 I am currently an undergraduate student in Computer Science and Technology at Guangzhou University. As a **2023-entry student**, I am ranked **1/130** in my major, with an average score of **93.16/100**, a weighted GPA score of **93.08/100**, and a GPA of **3.89/4**.
 
-My research mainly focuses on **multimodal emotion recognition**, especially the fusion and modeling of speech, facial expressions, and physiological signals. I am also broadly interested in graph neural networks, self-supervised learning, and multimodal large language models. At present, one of my papers has been accepted by *Multimedia Systems* as first author and is **awaiting formal publication**, while another related work is under review with me as second author. I have also led one provincial-level innovation project, participated in one national-level innovation project, and obtained one authorized software copyright and one published invention patent.
+My research mainly focuses on **multimodal emotion recognition**, especially the fusion and modeling of speech, facial expressions, and physiological signals. I also continue to explore related methods such as graph neural networks, self-supervised learning, and multimodal large models. At present, one of my papers has been accepted by *Multimedia Systems* as first author and is **awaiting formal publication**, while another related work is under review with me as second author. I have also led one provincial-level innovation project, participated in one national-level innovation project, and obtained one authorized software copyright and one invention patent publication.
 
 Beyond research, I actively take part in academic exchange and textbook development. I have attended the ICRCV-Hongkong session and participated in the writing of AI-related teaching materials.
 
@@ -210,7 +204,7 @@ During this internship, I served as the team lead in a university-enterprise col
 - 2025 Weiwei Cup Mathematical Contest in Modeling — **National First Prize**
 - 2025 Global AI Algorithm Elite Competition — **Provincial Second Prize / National Excellence Award**
 - 2024 National College English Writing Contest — **Provincial First Prize**
-- University First-Class Scholarship, National Encouragement Scholarship, Outstanding Student, Outstanding Student Leader
+- University First-Class Scholarship, National Encouragement Scholarship, Outstanding Student, Outstanding Student Leader, Outstanding League Member
 
 Selected certificates and supporting documents are shown below. You can scroll horizontally to view them:
 
