@@ -24,7 +24,7 @@ redirect_from:
 
 ## 代表性研究成果
 
-- **GraphDREAM** (*Multimedia Systems*, 第一作者，已见刊，32, 523 (2026).)：提出“净化-拓扑-校准”渐进学习框架，在 IEMOCAP、MELD、CH-SIMSv2 和 MOSEI 四个数据集上取得了有竞争力的性能。
+- **GraphDREAM** ，*Multimedia Systems*, 32: 523 (2026). (第一作者，已见刊)：提出“净化-拓扑-校准”渐进学习框架，在 IEMOCAP、MELD、CH-SIMSv2 和 MOSEI 四个数据集上取得了有竞争力的性能。
 - **CRM-Net** (在投，第二作者)：借鉴认知精细化感知机理，在 CMU-MOSI 和 CMU-MOSEI 上取得显著性能提升。
 - **MoodLens** (软件著作权)：基于多模态情感识别技术的网页系统，融合人脸、语音、文本实时分析情感状态并提供 emoji 反馈。
 
