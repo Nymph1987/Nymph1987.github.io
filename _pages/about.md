@@ -155,7 +155,7 @@ Beyond research, I actively take part in academic exchange and textbook developm
 
 ## Selected Research Highlights
 
-- **GraphDREAM** (*Multimedia Systems*, first author, 32, 523 (2026).): a progressive framework featuring purification, topology modeling, and calibration for multimodal emotion recognition.
+- **GraphDREAM** *Multimedia Systems*, 32: 523 (2026). (Sole first author): a progressive framework featuring purification, topology modeling, and calibration for multimodal emotion recognition.
 - **CRM-Net** (under review, second author): a cognition-inspired method for improving performance on CMU-MOSI and CMU-MOSEI.
 - **MoodLens** (software copyright): a web-based multimodal emotion recognition system integrating face, voice, and text analysis.
 
